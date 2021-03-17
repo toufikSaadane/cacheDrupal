@@ -1,0 +1,7 @@
+mycacheopdracht.example:
+  path: '/mycacheopdracht'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\mycacheopdracht\Controller\MycacheopdrachtController::build'
+  requirements:
+    _permission: 'access content'
